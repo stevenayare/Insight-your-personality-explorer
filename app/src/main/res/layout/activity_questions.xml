@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marksinpdesign"
+    android:orientation="vertical"
+
+    tools:context=".Questions">
+    <!-- TOOL-->
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AFA1A6">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/tenor_sans"
+
+            android:background="@drawable/next_button"
+            android:backgroundTint="#AFA1A6"
+            android:text="@string/EXIT"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#847684"
+
+        app:cardCornerRadius="10sp">
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/start"
+            android:fontFamily="@font/tenor_sans"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bit1"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#E5C9C9"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bit2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#E5C9C9"
+        android:textColor="@color/black" />
+
+
+    <!-->  <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cv2"
+        android:layout_height="60sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option1"
+            android:textColor="@color/black"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cv3"
+        android:layout_height="60sp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option2"
+            android:textColor="@color/black"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+        <!-->
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/next_button"
+        android:backgroundTint="#847684"
+        android:text="@string/next"
+        android:fontFamily="@font/tenor_sans"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>

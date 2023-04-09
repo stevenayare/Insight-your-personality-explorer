@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/marksinpdesign"
+    android:gravity="center"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/tv1"
+
+        android:fontFamily="@font/tenor_sans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <!-- Email-->
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:hint="@string/email"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:minHeight="50sp"
+        android:fontFamily="@font/tenor_sans"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+
+    <!-- Password-->
+
+
+
+    <EditText
+        android:id="@+id/ed2"
+        android:hint="@string/password"
+        android:minHeight="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/tenor_sans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+
+
+    <!-- Button-->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/Pb1"></ProgressBar>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tenor_sans"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textColorLink="#A1A0AF"
+        android:textSize="20dp"
+        tools:ignore="TextSizeCheck"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="12dp"
+        android:background="#E5C9C9"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_sign_in"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/tenor_sans"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/tv2r"></TextView>
+
+
+</LinearLayout>

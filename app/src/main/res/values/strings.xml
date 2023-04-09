@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Insight</string>
+    <string name="Login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="tap_to_sign_up">TAP TO SIGN-UP</string>
+    <string name="register">Register</string>
+    <string name="tap_to_register">TAP TO REGISTER</string>
+    <string name="toodles">TOODLES</string>
+    <string name="logout">LOGOUT</string>
+    <string name="click_to_register">CLICK TO REGISTER</string>
+    <string name="home">home</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="start">START</string>
+    <string name="exit">EXIT</string>
+    <string name="search">search</string>
+    <string name="name">NAME</string>
+    <string name="Name">Name</string>
+    <string name="tap_to_sign_in">TAP TO SIGN-IN</string>
+    <string name="EXIT">EXIT</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="maybe">MAYBE</string>
+    <string name="next">NEXT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_your_name">ENTER YOUR NAME</string>
+    <string name="get_to_know_your_personality_type">Get to know your personality type</string>
+    <string-array name="ques">
+       <item>
+
+       </item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marksinpdesign"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/tv1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tenor_sans"
+
+        android:text="LOGIN"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- Email-->
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:fontFamily="@font/tenor_sans"
+        android:minHeight="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"></EditText>
+
+
+    <!-- Password-->
+
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:fontFamily="@font/tenor_sans"
+        android:inputType="numberPassword"
+        android:minHeight="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"></EditText>
+
+
+    <!-- Button-->
+    <ProgressBar
+        android:id="@+id/Pb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"></ProgressBar>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:fontFamily="@font/tenor_sans"
+        android:textColor="@color/white"
+        android:textSize="20sp"></Button>
+
+    <TextView
+        android:id="@+id/tv2r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:padding="8dp"
+        android:background="#E5C9C9"
+        android:gravity="center"
+        android:text="@string/click_to_register"
+        android:textSize="20sp"
+        android:fontFamily="@font/tenor_sans"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
